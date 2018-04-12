@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "194301888879",
+    "firebase_url": "https://barracuda-messenger.firebaseio.com",
+    "project_id": "barracuda-messenger",
+    "storage_bucket": "barracuda-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194301888879:android:eba15a6a561907a8",
+        "android_client_info": {
+          "package_name": "kz.salsery.barracuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194301888879-c80mgv6s1dfdjql9tl45umclkcee0o1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.salsery.barracuda",
+            "certificate_hash": "e62687a2d1e128e559ea55fbd71452b8607d96a4"
+          }
+        },
+        {
+          "client_id": "194301888879-1gr863c1g6k8umm1fsi3mafqq56fdsac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxz-ndhNLvYVoNAKE7WMp9051iUr_Sdn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194301888879-1gr863c1g6k8umm1fsi3mafqq56fdsac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
