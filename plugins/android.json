@@ -24,6 +24,9 @@
     },
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "kz.im.char"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "kz.im.barracuda"
     }
   },
   "dependent_plugins": {}
