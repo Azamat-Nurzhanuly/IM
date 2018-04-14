@@ -3,10 +3,10 @@ import { IonicPage } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  selector: 'page-calls',
+  templateUrl: 'calls.html'
 })
-export class ContactPage {
+export class CallsPage {
 
 
 }
