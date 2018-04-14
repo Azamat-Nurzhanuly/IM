@@ -15,9 +15,12 @@ import {Events, IonicPage, NavController, NavParams} from 'ionic-angular';
 })
 export class ProfileSettingsPage {
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public events: Events) {
     this.events.publish('hideHeaderCall');
   }
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProfileSettingsPage');
