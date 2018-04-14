@@ -1,20 +1,19 @@
-<ion-header no-border>
-  <ion-toolbar>
-    <ion-title>Barracuda</ion-title>
-    <ion-buttons end>
-      <button ion-button icon-only color="royal">
-        <ion-icon name="search"></ion-icon>
-      </button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
-  <ion-tabs tabsPlacement="top">
-  <ion-tab [root]="tabChats" tabUrlPath="сhats" tabTitle="Чаты" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tabCalls" tabUrlPath="calls" tabTitle="Звонки" tabIcon="md-call"></ion-tab>
+  <ion-header no-border *ngIf="showHeader" style="position:relative;">
+    <ion-toolbar>
+      <ion-title>Barracuda</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only color="royal">
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-tabs tabsPlacement="top" style="position:relative;">
+    <ion-tab [root]="tabChats" tabUrlPath="сhats" tabTitle="Чаты" tabIcon="md-home"></ion-tab>
+    <ion-tab [root]="tabCalls" tabUrlPath="calls" tabTitle="Звонки" tabIcon="md-call"></ion-tab>
     <ion-tab [root]="tabSettings" tabUrlPath="settings" tabTitle="Настройки" tabIcon="md-settings"></ion-tab>
   </ion-tabs>
-
 </ion-content>
 
