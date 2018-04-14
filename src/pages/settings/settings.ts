@@ -3,9 +3,9 @@ import { IonicPage } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-about',
-  templateUrl: 'about.html'
+  selector: 'page-settings',
+  templateUrl: 'settings.html'
 })
-export class AboutPage {
+export class SettingsPage {
 
 }

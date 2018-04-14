@@ -2,14 +2,14 @@
  * Created by hsuanlee on 2017/4/4.
  */
 import { NgModule} from '@angular/core';
-import { HomePage} from './home';
+import { ChatsPage} from './chats';
 import { IonicPageModule } from 'ionic-angular';
 
 @NgModule({
-    declarations: [HomePage],
+    declarations: [ChatsPage],
     imports: [
-        IonicPageModule.forChild(HomePage),
+        IonicPageModule.forChild(ChatsPage),
 
     ],
 })
-export class HomePageModule { }
+export class ChatsPageModule { }

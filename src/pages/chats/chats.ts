@@ -4,9 +4,9 @@ import { IonicPage } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'chats.html'
 })
-export class HomePage {
+export class ChatsPage {
 
   toUser : {toUserId: string, toUserName: string};
 

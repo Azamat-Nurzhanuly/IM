@@ -8,25 +8,25 @@
   },
   "installed_plugins": {
     "cordova-plugin-console": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "kz.im.char"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "kz.im.barracuda"
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     }
   },
   "dependent_plugins": {}
