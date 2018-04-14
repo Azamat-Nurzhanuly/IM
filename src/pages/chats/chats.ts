@@ -3,7 +3,7 @@ import { IonicPage } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
+  selector: 'page-chats',
   templateUrl: 'chats.html'
 })
 export class ChatsPage {
