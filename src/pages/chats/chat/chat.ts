@@ -1,7 +1,7 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
-import { Events, Content } from 'ionic-angular';
-import { ChatService, ChatMessage, UserInfo } from "../../providers/chat-service";
+import {Events, Content} from 'ionic-angular';
+import {ChatService, ChatMessage, UserInfo} from "../../../providers/chat-service";
 
 @IonicPage()
 @Component({
@@ -28,9 +28,9 @@ export class Chat {
     };
     // Get mock user information
     this.chatService.getUserInfo()
-    .then((res) => {
-      this.user = res
-    });
+      .then((res) => {
+        this.user = res
+      });
 
     this.events.publish('hideHeaderCall');
   }
@@ -77,11 +77,11 @@ export class Chat {
   getMsg() {
     // Get mock message list
     return this.chatService
-    .getMsgList()
-    .subscribe(res => {
-      this.msgList = res;
-      this.scrollToBottom();
-    });
+      .getMsgList()
+      .subscribe(res => {
+        this.msgList = res;
+        this.scrollToBottom();
+      });
   }
 
   /**
@@ -111,12 +111,12 @@ export class Chat {
     }
 
     this.chatService.sendMsg(newMsg)
-    .then(() => {
-      let index = this.getMsgIndexById(id);
-      if (index !== -1) {
-        this.msgList[index].status = 'success';
-      }
-    })
+      .then(() => {
+        let index = this.getMsgIndexById(id);
+        if (index !== -1) {
+          this.msgList[index].status = 'success';
+        }
+      })
   }
 
   /**
@@ -154,7 +154,7 @@ export class Chat {
   }
 
   private setTextareaScroll() {
-    const textarea =this.messageInput.nativeElement;
+    const textarea = this.messageInput.nativeElement;
     textarea.scrollTop = textarea.scrollHeight;
   }
 }
