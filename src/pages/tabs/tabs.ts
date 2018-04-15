@@ -11,6 +11,7 @@ export class TabsPage implements OnDestroy {
   // this tells the tabs component which Pages
   // should be each tab's root Page
   tabChats: any = 'ChatsPage';
+  tabContacts: any = 'ContactsPage';
   tabSettings: any = 'SettingsPage';
   tabCalls: any = 'CallsPage';
   username = '';
