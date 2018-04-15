@@ -27,6 +27,9 @@
     },
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     }
   },
   "dependent_plugins": {}

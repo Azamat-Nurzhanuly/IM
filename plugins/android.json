@@ -10,7 +10,13 @@
     "cordova-plugin-console": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
     },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "kz.salsery.barracuda"
+    },
     "cordova-plugin-device": {
+      "PACKAGE_NAME": "kz.salsery.barracuda"
+    },
+    "cordova-plugin-firebase": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-splashscreen": {
@@ -23,9 +29,6 @@
       "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "kz.salsery.barracuda"
-    },
-    "cordova-plugin-firebase": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
     }
   },

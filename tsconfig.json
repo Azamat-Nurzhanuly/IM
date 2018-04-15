@@ -17,7 +17,8 @@
     ]
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "plugins/cordova-plugin-contacts/types/index.d.ts"
   ],
   "exclude": [
     "node_modules",
