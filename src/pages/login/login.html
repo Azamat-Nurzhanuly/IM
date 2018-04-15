@@ -21,7 +21,7 @@
           <ion-list inset>
 
             <ion-item>
-              <ion-input type="text" placeholder="Номер телефона" name="tel" [(ngModel)]="registerCredentials.tel"
+              <ion-input type="tel" placeholder="Номер телефона" name="tel" [(ngModel)]="registerCredentials.tel"
                          required></ion-input>
             </ion-item>
 
@@ -36,7 +36,7 @@
 
       <ion-row>
         <ion-col class="signup-col">
-          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Login</button>
+          <button ion-button class="submit-btn" full type="submit">Login</button>
           <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>
         </ion-col>
       </ion-row>

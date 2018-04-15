@@ -20,21 +20,12 @@ export class LoginPage {
   }
 
   public createAccount() {
-    this.nav.push('RegisterPage');
+    this.auth.verify(this.registerCredentials.password);
   }
 
   public login() {
-    this.showLoading()
-    this.auth.login(this.registerCredentials).subscribe(allowed => {
-        if (allowed) {
-          this.nav.setRoot('TabsPage');
-        } else {
-          this.showError("Access Denied");
-        }
-      },
-      error => {
-        this.showError(error);
-      });
+    this.showLoading();
+    this.auth.send(this.registerCredentials.tel);
   }
 
   showLoading() {

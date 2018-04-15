@@ -50,7 +50,7 @@
   "cordova-plugin-firebase": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-firebase@^0.1.25"
+      "id": "https://github.com/jestcastro/cordova-plugin-firebase.git"
     },
     "is_top_level": true,
     "variables": {}
