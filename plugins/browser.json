@@ -30,6 +30,9 @@
     },
     "cordova-plugin-contacts": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
+    },
+    "cordova-plugin-firebase-authentication": {
+      "PACKAGE_NAME": "kz.salsery.barracuda"
     }
   },
   "dependent_plugins": {}

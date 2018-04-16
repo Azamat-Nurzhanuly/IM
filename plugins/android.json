@@ -16,7 +16,8 @@
     "cordova-plugin-device": {
       "PACKAGE_NAME": "kz.salsery.barracuda"
     },
-    "cordova-plugin-firebase": {
+    "cordova-plugin-firebase-authentication": {
+      "FIREBASE_VERSION": "11.6.+",
       "PACKAGE_NAME": "kz.salsery.barracuda"
     },
     "cordova-plugin-splashscreen": {
@@ -32,5 +33,9 @@
       "PACKAGE_NAME": "kz.salsery.barracuda"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "kz.salsery.barracuda"
+    }
+  }
 }
