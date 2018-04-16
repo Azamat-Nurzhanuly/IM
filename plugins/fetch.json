@@ -58,7 +58,7 @@
   "cordova-plugin-contacts": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-contacts@3.0.1"
+      "id": "cordova-plugin-contacts@^3.0.1"
     },
     "is_top_level": true,
     "variables": {}
@@ -69,7 +69,9 @@
       "id": "cordova-plugin-firebase-authentication@^0.13.1"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "FIREBASE_VERSION": "11.6.+"
+    }
   },
   "cordova-support-google-services": {
     "source": {

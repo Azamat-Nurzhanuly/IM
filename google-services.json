@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "194301888879-c80mgv6s1dfdjql9tl45umclkcee0o1u.apps.googleusercontent.com",
+          "client_id": "194301888879-3n9cebichh5p0h9macdo2p8330uue1s3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "kz.salsery.barracuda",
-            "certificate_hash": "e62687a2d1e128e559ea55fbd71452b8607d96a4"
+            "certificate_hash": "4e40181684e82a8a08ed21e6524682c40c17b608"
           }
         },
         {

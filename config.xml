@@ -40,7 +40,7 @@
     <allow-navigation href="http://192.168.1.102:8101" />
     <allow-navigation href="http://192.168.1.102:8100" />
     <plugin name="cordova-plugin-firebase-authentication" spec="^0.13.1" />
-    <engine name="android" spec="7.1.0" />
     <engine name="browser" spec="5.0.3" />
     <engine name="ios" spec="^4.5.4" />
+    <engine name="android" spec="~7.1.0" />
 </widget>
